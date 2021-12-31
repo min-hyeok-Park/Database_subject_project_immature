@@ -1,0 +1,101 @@
+#static {
+  margin-top: 10rem;
+}
+
+#static .static-title {
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 4rem;
+}
+
+#static .static-content {
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  padding: 2rem 3rem;
+}
+
+.static-day-time,
+.static-ex,
+.static-info {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 4px;
+  margin-bottom: 3rem;
+}
+
+.static-content:hover {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.static-ex {
+  margin-bottom: 5rem;
+}
+
+#static .static-containerM {
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr;
+  width: 100%;
+  height: 50rem;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+}
+.static-containerM :first-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.static-containerM .static-container-box :first-child {
+  border-right: none;
+}
+
+.static-container-box-title {
+  padding: 5px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.static-container-box {
+  padding: 10px;
+}
+
+.static-container-box .static-info {
+  margin-top: 2rem;
+}
+
+.content-total-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.total-price {
+  font-size: 3.5rem;
+  margin: 10rem 0rem;
+}
+.total-count {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.5rem;
+}
+.exstatic-day-time {
+  border: 1px solid black;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.static-containerM :hover {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.static-container-box-content:hover {
+  box-shadow: none;
+}
+
+.static-container-box-content {
+  font-size: 1.8rem;
+}
